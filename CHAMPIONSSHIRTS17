@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChampionsShirts - Réplicas Premium</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f5f7fa; color: #222; }
+    header { background: linear-gradient(to right, #0a3d62, #1e3799); color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { margin: 0; font-size: 1.5rem; }
+    nav a { margin: 0 1rem; color: #fff; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .hero { display: grid; grid-template-columns: 1fr 1fr; padding: 2rem; gap: 2rem; align-items: center; }
+    .hero h2 { font-size: 2rem; margin: 0; }
+    .hero p { margin-top: 1rem; }
+    .btn { background: #f39c12; color: #fff; padding: 0.8rem 1.2rem; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; }
+    .btn:hover { background: #d35400; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; padding: 2rem; }
+    .card { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card h3 { margin-top: 0.5rem; }
+    .faq, .reviews { padding: 2rem; }
+    .faq h2, .reviews h2 { margin-bottom: 1rem; }
+    .footer { background: #fff; border-top: 1px solid #ddd; text-align: center; padding: 1rem; margin-top: 2rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ChampionsShirts</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#jugadores">Jugadores</a>
+      <a href="#faq">Preguntas</a>
+      <a href="#reviews">Reseñas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h2>Réplicas premium de camisetas de fútbol</h2>
+      <p>Calidad superior, envío rápido y atención al cliente excepcional. Siempre especificamos que son réplicas, no productos oficiales.</p>
+      <button class="btn">Explorar camisetas</button>
+    </div>
+    <div style="background:#ddd; height:300px; border-radius:8px; display:flex; align-items:center; justify-content:center;">
+      Imagen destacada aquí
+    </div>
+  </section>
+
+  <section id="jugadores">
+    <h2 style="text-align:center;">Jugadores populares</h2>
+    <div class="cards">
+      <div class="card">
+        <div style="background:#eee;height:150px;display:flex;align-items:center;justify-content:center;">Imagen</div>
+        <h3>Cristiano Ronaldo</h3>
+        <p>Equipos: Real Madrid, Juventus, Manchester United</p>
+        <button class="btn">Ver camisetas</button>
+      </div>
+      <div class="card">
+        <div style="background:#eee;height:150px;display:flex;align-items:center;justify-content:center;">Imagen</div>
+        <h3>Lionel Messi</h3>
+        <p>Equipos: Barcelona, PSG, Inter Miami</p>
+        <button class="btn">Ver camisetas</button>
+      </div>
+      <div class="card">
+        <div style="background:#eee;height:150px;display:flex;align-items:center;justify-content:center;">Imagen</div>
+        <h3>Kylian Mbappé</h3>
+        <p>Equipos: PSG</p>
+        <button class="btn">Ver camisetas</button>
+      </div>
+      <div class="card">
+        <div style="background:#eee;height:150px;display:flex;align-items:center;justify-content:center;">Imagen</div>
+        <h3>Erling Haaland</h3>
+        <p>Equipos: Manchester City</p>
+        <button class="btn">Ver camisetas</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>Preguntas frecuentes</h2>
+    <p><strong>¿Son originales estas camisetas?</strong><br>No, son réplicas de alta calidad. No usamos marcas oficiales de la UEFA ni logos registrados.</p>
+    <p><strong>¿Cuánto tarda el envío?</strong><br>De 3 a 7 días hábiles (opción express disponible).</p>
+    <p><strong>¿Puedo devolverla si no me vale?</strong><br>Sí, dispones de 14 días para devolverla en perfectas condiciones.</p>
+  </section>
+
+  <section id="reviews" class="reviews">
+    <h2>Reseñas de clientes</h2>
+    <div class="card">
+      <p><strong>María:</strong> Calidad increíble, nadie diría que es réplica. Llegó en 3 días.</p>
+    </div>
+    <div class="card">
+      <p><strong>Jorge:</strong> Atención rápida y producto cómodo. Volveré a comprar.</p>
+    </div>
+  </section>
+
+  <footer class="footer" id="contacto">
+    <p>© 2025 ChampionsShirts — Réplicas de alta calidad. No productos oficiales de la UEFA ni clubes.</p>
+    <p>Email: soporte@championsshirts.com | Tel: +34 600 000 000</p>
+  </footer>
+
+</body>
+</html>
